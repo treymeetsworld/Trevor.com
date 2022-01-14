@@ -3,4 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home2/trevormw/public_html/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp main.css $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R files $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
